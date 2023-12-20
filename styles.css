@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ed92ff;
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.groupOfButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    margin-top: 100px;
+    margin-left: 70px;
+} 
+
+
+.button {
+    background-color: #b6dcff;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e3b2ff;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.center{
+    margin-top: 90px;
+    margin-left: 70px;
+}

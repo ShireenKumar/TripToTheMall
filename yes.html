@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./yes_styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Yay!!</h1>
+            </div>
+            <div class="gif">
+                <img src="https://media1.giphy.com/media/f7GDJs0SXg1WFXNSNQ/giphy.gif" alt="Happy Gif">
+            </div>
+            <p class = "text">I'll be there in 10!</p>
+
+            <div class = "groupOfButtons">
+            <button class="button" id="musicButton" onclick="musicTime()">Music!</button>
+            
+            <script>
+                function musicTime() {
+                    var music = new Audio('music.mp3');
+                    music.play();
+                }
+            </script> 
+            </div>
+        </div>
+        
+    </body> 
+</html>

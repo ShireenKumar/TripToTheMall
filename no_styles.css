@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.header_text {
+    font-family: 'Zombie Control', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text {
+    font-family: 'Zombie Control', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.groupOfButtons {
+    margin-top: 20px;
+    margin-left: 140px;
+} 
+
+
+
+.button {
+    background-color: #940016;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    font-family: 'Zombie Control', sans-serif;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0f0b02;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
